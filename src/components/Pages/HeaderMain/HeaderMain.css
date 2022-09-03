@@ -1,0 +1,76 @@
+.headerMain {
+  width: 100vw;
+  height: 60vh;
+  box-sizing: border-box;
+  border-top: 3px solid #f8c6c6;
+  box-shadow: 3px solid #f8c6c6;
+}
+.cardHeaderTxt {
+  background-color: #f8c6c6;
+}
+
+.cardHeaderTxtLeft img {
+  width: 120px;
+  width: 120px;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+.cardHeaderTxtLeft h6 {
+  transform: rotate(-65deg);
+  -webkit-transform: rotate(-26deg);
+  margin-top: -140px;
+  margin-left: -30px;
+  color: #d65b5b;
+}
+
+.cardHeaderTxt h3 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  
+}
+.cardTxt {
+  text-align: left;
+  color: #696868;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.cardBottom p {
+  text-align: center;
+  color: #b73c3b;
+  font-size: 16px;
+}
+.cardButton {
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  background-color: #ff8382;
+  color: #ffffff;
+  width: 180px;
+  height: 55px;
+  font-weight: bold;
+}
+.buttonText {
+  font-size: 20px;
+  margin-right: 5px;
+  text-align: center;
+  margin-bottom: -10px !important;
+}
+.emailIcon {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  color: #ff8382;
+}
+
+.headerMainRight {
+  text-align: left;
+  justify-content: left;
+  align-items: flex-start;
+}
+.headerMainRight img {
+  width: 600px;
+}

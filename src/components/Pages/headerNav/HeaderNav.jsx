@@ -1,49 +1,50 @@
 import React from 'react';
 import './HeaderNav.css';
-import home from '../../../images/home.png';
-import hand from '../../../images/handIcon.png';
-import film from '../../../images/filmIcon.png';
-import line from '../../../images/lineIcon.png';
-import yIcon from '../../../images/yIcon.png';
-import youtube from '../../../images/youtube.png';
+import home from '../../../images/navImage/home2.png';
+import hand from '../../../images/navImage/handIcon2.png';
+import film from '../../../images/navImage/filmIcon2.png';
+import line from '../../../images/navImage/lineIcon2.png';
+import yIcon from '../../../images/navImage/yIcon2.png';
+import youtube from '../../../images/navImage/youtube2.png';
 
 const HeaderNav = () => {
   return (
     <div className='headerNavBar'>
       <nav className='headerNav'>
         <ul className='headerList'>
-          <li className='list'>
-            <img src={home} alt="" />
-            <h5>Home</h5>
+          <li className='list me-5'>
+            <img src={home} alt='' className='img2' />
+            <h6>Home</h6>
           </li>
-          <li className='list'>
-            <img src={hand} alt='' style={{ color: '#FF8382' }} />
-            <h5>サービス紹介 </h5>
+          <li className='list me-5'>
+            <img src={hand} alt='' className='img2' />
+            <h6>サービス紹介 </h6>
           </li>
-          <li className='list'>
+          <li className='list me-5'>
             <img src={film} alt='' />
-            <h5> 動画多言語化 </h5>
+            <h6> 動画多言語化 </h6>
           </li>
-          <li className='list'>
+          <li className='list me-5'>
             <img src={line} alt='' />
-            <h5>実績確認</h5>
+            <h6>実績確認</h6>
           </li>
-          <li className='list'>
+          <li className='list me-5'>
             <img src={yIcon} alt='' />
-            <h5> 料金表 </h5>
+            <h6> 料金表 </h6>
           </li>
-          <li className='list'>
-            <h5>よくある質問</h5>
+          <li className='list me-5'>
+            <h6 className='mt-5'>よくある質問</h6>
           </li>
-          <li className='list'>
-            <h5>無料見積・問合せ</h5>
+          <li className='list me-5'>
+            <h6 className='mt-5'>無料見積・問合せ</h6>
           </li>
-         <li className='list'>
-         <img src={youtube} alt='' />
-          <h5>
-            YouTuber <br /> に なるためには
-          </h5>
-         </li>
+          <li className='list me-5'>
+            <img src={youtube} alt='' />
+            <h6>
+              YouTuber
+              <br /> <span style={{ fontSize: '15px' }}>に なるためには</span>
+            </h6>
+          </li>
         </ul>
       </nav>
     </div>

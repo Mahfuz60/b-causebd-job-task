@@ -1,0 +1,48 @@
+.headerCheckBox {
+  width: 100vw;
+  height: 60vh;
+  box-sizing: border-box;
+}
+.headerCheckBox hr {
+  width: 400px;
+  color: #ff8382;
+  font-size: 30px;
+  padding: 1px;
+  font-weight: bold;
+}
+.headerTop h4 {
+  letter-spacing: -0.01rem;
+  color: #5e5e5e;
+}
+.headerTop span {
+  color: #ff8382;
+}
+.headerText h5 {
+  letter-spacing: 0.001rem;
+}
+.checkBoxIcon {
+  margin-right: 5px;
+  padding: 2px;
+  color: #ff8382;
+  border: #7e7d7d;
+  font-size: 20px;
+}
+
+.headerBottom h4 {
+  /* text-align: center; */
+  letter-spacing: -0.01rem;
+  color: #5e5e5e;
+  margin-left: 200px;
+}
+
+.headerBottom hr {
+  width: 300px;
+  color: #ff8382;
+  font-size: 30px;
+  padding: 1px;
+  font-weight: bold;
+  float: right;
+}
+.headerBottom span {
+  color: #ff8382;
+}
