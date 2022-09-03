@@ -2,6 +2,8 @@ import React from 'react';
 import './Header.css';
 import headerTxt from '../../../images/headerText.png';
 import alarm from '../../../images/alarm.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
@@ -9,16 +11,16 @@ const Header = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-md-6'>
-            <img className='imgTxt' src={headerTxt} alt='' />
+            <img className='imgText' src={headerTxt} alt='' />
             <ul className='headerList'>
-              <li >YouTube</li>
+              <li><p>YouTube</p></li>
               <li>
-                <i className='fa-solid fa-circle-small ' />
-                Facebook
+                <FontAwesomeIcon icon={faCircle} className='icon' />
+               <p className='headerTxt'> Facebook</p>
               </li>
-              <li >
-                <i className='fa-solid fa-circle-small' />
-                TikTok
+              <li>
+                <FontAwesomeIcon icon={faCircle} className='icon ' />
+               <p className='headerTxt'> TikTok</p>
               </li>
             </ul>
             <div className='headerAlarm'>

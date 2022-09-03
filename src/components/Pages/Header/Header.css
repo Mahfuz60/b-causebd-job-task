@@ -1,21 +1,25 @@
 .headerBg {
   background-image: url('../../../images/header.png');
   height:350px;
-  width: 100%;
+  width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
+  box-sizing: border-box;
+
+  
   
 }
-.imgTxt {
+.imgText {
   width: 350px;
   height: 200px;
   margin-top:25px;
   margin-left: 100px;
+  
 }
 
 .headerList {
   list-style: none;
-  margin-left: 180px;
+  margin-left: 160px;
   display: flex;
   flex-direction: row;
 }
@@ -25,6 +29,10 @@
   padding: 10px;
   font-size: 20px;
   font-weight: 400;
+}
+.headerTxt{
+  margin-top: -28px;
+  margin-left: 15px;
 }
 .headerAlarm {
   display: flex;
@@ -46,4 +54,7 @@
 }
 .headerAlarm h6{
   margin-top: 5px;
+}
+.icon{
+  font-size: 6px;
 }

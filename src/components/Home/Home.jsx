@@ -3,7 +3,7 @@ import Header from '../Pages/Header/Header';
 import HeaderCheckBox from '../Pages/HeaderCheckBox/HeaderCheckBox';
 import HeaderMain from '../Pages/HeaderMain/HeaderMain';
 import HeaderNav from '../Pages/headerNav/HeaderNav';
-import Services from '../Pages/Services/Services';
+import Service from '../Pages/Services/Service/Service';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <HeaderNav />
       <HeaderMain />
       <HeaderCheckBox />
-      <Services/>
+      <Service />
     </>
   );
 };

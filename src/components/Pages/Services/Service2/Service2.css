@@ -1,0 +1,40 @@
+.service2 {
+  width: 100vw;
+  height: 50vh;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+.services2 {
+  height: 250px;
+  width: 80%;
+  float: left;
+  background-color: #ffe4e9;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+.serviceLeft2 {
+  text-align: right;
+}
+.serviceLeft2 .img1 {
+  width: 240px;
+  height: 200px;
+  margin-top: -30px;
+  position: relative;
+}
+.serviceLeft2 .img2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-left: -300px;
+  margin-top: 70px;
+}
+
+.serviceRight2{
+  width: 50px;
+  height: 50px;
+  border-bottom: 3px solid #ff8382;
+  padding-bottom: 5px;
+  text-align:right;
+  align-items: flex-end;
+  justify-content: end;
+}
