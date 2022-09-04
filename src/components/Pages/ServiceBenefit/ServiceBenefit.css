@@ -1,6 +1,6 @@
 .serviceBenefit {
   width: 100vw;
-  height: 100vh;
+  height: 60vh;
   box-sizing: border-box;
   margin-top: 80px;
 }
@@ -18,7 +18,7 @@
   flex-direction: row;
 }
 .card {
-  width: 170px;
+  width: 200px;
   height: 200px;
   text-align: center;
   background-color: #ffecec;
