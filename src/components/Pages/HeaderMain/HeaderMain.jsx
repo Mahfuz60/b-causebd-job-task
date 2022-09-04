@@ -11,13 +11,20 @@ const HeaderMain = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-md-4 col-10 mx-auto'>
-            <div className='card mt-5'>
+            <div
+              className='card mt-5'
+              style={{
+                width: '380px',
+                height: '340px',
+                boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+              }}
+            >
               <div className='cardHeaderTxt'>
                 <div className='cardHeaderTxtLeft'>
-                  <img src={headerMainIcon} alt='' />
+                  <img src={headerMainIcon} alt='' className='img1' />
                   <h6>Specialist</h6>
                 </div>
-                <h3 className='card-title mt-3 '>
+                <h3 className='card-title '>
                   SNSプロモーションの <br /> スペシャリスト
                 </h3>
               </div>
@@ -45,7 +52,6 @@ const HeaderMain = () => {
               <img src={headermain} alt='' />
             </div>
           </div>
-         
         </div>
       </div>
     </div>

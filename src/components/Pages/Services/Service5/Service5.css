@@ -1,0 +1,41 @@
+.service5 {
+  width: 100vw;
+  height: 45vh;
+  box-sizing: border-box;
+}
+.services5 {
+  margin-top: 20px;
+  height: 250px;
+  width: 80%;
+  float: right;
+  background-color: #ffe4e9;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+
+.serviceLeft5 {
+  width: 50px;
+  height: 50px;
+  border-bottom: 5px solid #ff8382;
+  margin-left: 150px;
+  margin-top: -20px;
+  padding-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.textLeft5 {
+  margin-top: 10px;
+  margin-left: 145px;
+}
+.serviceRight5 {
+  text-align: left;
+}
+.serviceRight5 .img1 {
+  width: 220px;
+  height: 250px;
+  position: relative;
+  margin-left: 50px;
+}
+.textLeft5 p {
+  font-size: 13px;
+}

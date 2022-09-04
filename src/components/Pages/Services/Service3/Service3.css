@@ -1,20 +1,10 @@
-.service1 {
-  width:100vw;
+.service3 {
+  width: 100vw;
   height: 50vh;
   box-sizing: border-box;
 }
-.service1Title {
-  text-align: center;
-}
-.service1Title h1 {
-  margin-top: -60px;
-  color: #fdfcfc;
-  text-shadow: 2px 2px black;
-  font-weight: bold;
-}
-
-.services {
-  margin-top: 60px;
+.services3 {
+  margin-top: 20px;
   height: 250px;
   width: 80%;
   float: right;
@@ -37,19 +27,13 @@
   margin-top: 10px;
   margin-left: 150px;
 }
-.serviceRight1 {
+.serviceRight3 {
   text-align: left;
 }
-.serviceRight1 .img1 {
-  width: 120px;
-  height: 100px;
+.serviceRight3 .img1 {
+  width: 200px;
+  height: 300px;
   margin-top: -50px;
   position: relative;
   margin-left: 50px;
-}
-.serviceRight1 .img2 {
-  width: 250px;
-  height: 275px;
-  margin-left: -175px;
-  position: absolute;
 }

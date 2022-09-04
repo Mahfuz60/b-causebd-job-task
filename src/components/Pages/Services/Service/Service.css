@@ -1,0 +1,31 @@
+.serviceBtnBottom {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+.serviceButtons {
+  text-align: center;
+  border-radius: 40px;
+  border: none;
+  color: #ff8382;
+  background-color: #ffffff;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.serviceButtons span {
+  font-size: 20px;
+  margin-top: 0px;
+}
+.emailIcons {
+  height: 20px;
+  width: 22px;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #ff8382;
+  margin-top: 5px;
+  margin-left: 25px;
+}

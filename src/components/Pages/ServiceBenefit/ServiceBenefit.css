@@ -1,0 +1,101 @@
+.serviceBenefit {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+.benefitTitle {
+  text-align: center;
+}
+.benefitTitle h1 {
+  margin-top: -60px;
+  color: #fdfcfc;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+.benefitCard {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  width: 170px;
+  height: 200px;
+  text-align: center;
+  background-color: #ffecec;
+  border: none;
+  margin-right: 5px;
+}
+.card1 img {
+  width: 40px;
+  height: 40px;
+}
+.card1 .img1 {
+  margin-left: 60px;
+  margin-top: 40px;
+  position: relative;
+}
+.card1 .img2 {
+  margin-left: 35px;
+}
+.card1 .img3 {
+  margin-left: 80px;
+  margin-top: -40px;
+}
+.card-text {
+  font-size: 12px;
+}
+
+.card2 {
+  text-align: center;
+}
+.card2 .img3 {
+  width: 22px;
+  height: 22px;
+  border-radius: 15px;
+  border: 2px solid #ff8382;
+  background-color: #ffffff;
+  position: relative;
+  margin-left: 55px;
+  margin-top: 50px;
+}
+.card2 .img4 {
+  width: 60px;
+  height: 60px;
+  margin-left: 45px;
+  margin-top: 50px;
+  position: absolute;
+}
+.card2 p {
+  margin-top: 70px;
+}
+
+.card3 {
+  text-align: center;
+}
+.card3 .img5 {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.card3 p {
+  margin-top: 20px;
+}
+.card4 .img6 {
+  width: 50px;
+  height: 70px;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.card4 p {
+  margin-top: 25px;
+}
+.card5 .img7 {
+  width: 90px;
+  height: 80px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.card5 p {
+  margin-top: 25px;
+}

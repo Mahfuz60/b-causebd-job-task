@@ -5,21 +5,22 @@
   border-top: 3px solid #f8c6c6;
   box-shadow: 3px solid #f8c6c6;
 }
+
 .cardHeaderTxt {
   background-color: #f8c6c6;
 }
 
-.cardHeaderTxtLeft img {
+.cardHeaderTxtLeft .img1 {
   width: 120px;
   width: 120px;
-  margin-left: -40px;
-  margin-top: -40px;
+  margin-left: -280px;
+  margin-top: -30px;
 }
 .cardHeaderTxtLeft h6 {
   transform: rotate(-65deg);
-  -webkit-transform: rotate(-26deg);
-  margin-top: -140px;
-  margin-left: -30px;
+  -webkit-transform: rotate(-32deg);
+  margin-top: -75px;
+  margin-left: -275px;
   color: #d65b5b;
 }
 
@@ -27,7 +28,7 @@
   color: #ffffff;
   text-align: center;
   font-weight: 600;
-  
+  margin-top: -10px;
 }
 .cardTxt {
   text-align: left;
