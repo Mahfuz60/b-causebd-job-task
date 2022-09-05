@@ -1,13 +1,12 @@
-.companies{
+.userService {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
 }
-.companiesTitle{
+.userServiceTitle {
   text-align: center;
-
 }
-.companiesTitle h1 {
+.userServiceTitle h3 {
   margin-top: -50px;
   color: #fdfcfc;
   text-shadow: 2px 2px black;

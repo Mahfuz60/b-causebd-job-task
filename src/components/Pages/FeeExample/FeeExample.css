@@ -1,13 +1,12 @@
-.companies{
+.feeExample {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
 }
-.companiesTitle{
+.header {
   text-align: center;
-
 }
-.companiesTitle h1 {
+.header h3 {
   margin-top: -50px;
   color: #fdfcfc;
   text-shadow: 2px 2px black;
