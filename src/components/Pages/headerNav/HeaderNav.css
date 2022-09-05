@@ -3,6 +3,7 @@
   height: 100px;
   background-color: #ffffff;
   box-sizing: border-box;
+  box-shadow: 0px 3px 20px #f8c6c6;
 }
 .headerNav {
   display: grid;
@@ -10,22 +11,19 @@
 }
 .headerList li {
   list-style: none;
-  margin-left:-60px;
- 
+  margin-left: -60px;
 }
 .list {
   width: 160px;
   height: 100px;
-  
- 
-  text-align:center;
+
+  text-align: center;
   justify-items: center;
   align-items: center;
 }
 .list h6 {
   font-size: 15px;
   margin-top: 10px;
-  
 }
 .headerList li img {
   width: 25px;

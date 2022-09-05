@@ -10,8 +10,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faSquareCheck } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope,faSquareCheck } from '@fortawesome/free-solid-svg-icons';
+
 
 const Sliders = () => {
   return (
@@ -21,8 +21,10 @@ const Sliders = () => {
         <h3 className='text-center'>運営実績</h3>
         <div className='mt-5 slider'>
           <Swiper
-            slidesPerView={1}
-            spaceBetween={10}
+            slidesPerView={4.3}
+            spaceBetween={25}
+            loop={true}
+            loopFillGroupWithBlank={true}
             pagination={{
               clickable: true,
             }}
@@ -60,18 +62,25 @@ const Sliders = () => {
             <SwiperSlide>
               <img src={pic4} alt='' />
             </SwiperSlide>
+            <SwiperSlide>
+              <img src={pic3} alt='' />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <img src={pic4} alt='' />
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
-      <div className='row '>
-        <div className='sliderBtnBottom d-flex'>
-          <button className='slidereButtons1 me-4'>
-            <span>実績リスト</span>
+      <div className='row g-0'>
+        <div className='sliderBtnBottom'>
+          <button className='sliderButtons me-5'>
+            <span className='text-center'>実績リスト</span>
             <FontAwesomeIcon className='checkIcons' icon={faSquareCheck} />
           </button>
-          <button className='sliderButtons2'>
+          <button className='sliderButtons ms-2'>
             <span>お問合せ</span>
-            <FontAwesomeIcon className='emailIcons' icon={faEnvelope} />
+            <FontAwesomeIcon className='checkIcons' icon={faEnvelope} />
           </button>
         </div>
       </div>

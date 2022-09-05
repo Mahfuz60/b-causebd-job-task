@@ -16,10 +16,10 @@ const Service = () => {
       <Service3 />
       <Service4 />
       <Service5 />
-      <div className='row'>
+      <div className='row g-0'>
         <div className='serviceBtnBottom'>
           <button className='serviceButtons'>
-            <span>お問合せ</span>
+            <span className='text-center'>お問合せ</span>
             <FontAwesomeIcon className='emailIcons' icon={faEnvelope} />
           </button>
         </div>

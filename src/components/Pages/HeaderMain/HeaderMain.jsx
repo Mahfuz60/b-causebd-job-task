@@ -38,10 +38,12 @@ const HeaderMain = () => {
                     現代はもはやテキストの時代ではない。 <br /> 動画の時代です!!
                   </p>
                   <div className='text-center'>
-                    <button className='cardButton'>
-                      <span className='buttonText'> お問合せ</span>
-                      <FontAwesomeIcon className='emailIcon' icon={faEnvelope} />
-                    </button>
+                    <div className='cardBtnBottom'>
+                      <button className='cardButton'>
+                        <span className=' text-center'> お問合せ</span>
+                        <FontAwesomeIcon className='emailIcon' icon={faEnvelope} />
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -1,10 +1,24 @@
-.serviceBtnBottom {
+.frequentlyQues {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.frequentlyTitle {
+  text-align: center;
+}
+.frequentlyTitle h2 {
+  margin-top: -50px;
+  color: #fdfcfc;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+.frequentlyBtnBottom {
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-.serviceButtons {
+.frequentlyButtons {
   text-align: center;
   border-radius: 40px;
   border: none;
@@ -19,11 +33,23 @@
   justify-content: space-between;
   padding: 8px;
   padding-left: 25px;
+  margin-top: -10px;
+  
 }
-.serviceButtons span {
+
+.slidereButtons span {
   font-size: 20px;
 }
 .emailIcons {
+  height: 20px;
+  width: 22px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #ff8382;
+  color: white;
+  margin-left: 25px;
+}
+.checkIcons {
   height: 20px;
   width: 22px;
   border-radius: 20px;

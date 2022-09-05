@@ -1,0 +1,14 @@
+.serviceFlow {
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+}
+.flowTitle {
+  text-align: center;
+}
+.flowTitle h2 {
+  margin-top: -50px;
+  color: #fdfcfc;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}

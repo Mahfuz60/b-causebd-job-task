@@ -2,8 +2,8 @@
   width: 100vw;
   height: 60vh;
   box-sizing: border-box;
-  border-top: 3px solid #f8c6c6;
-  box-shadow: 3px solid #f8c6c6;
+  /* border-top: 3px solid #f8c6c6; */
+  /* box-shadow: 3px solid #f8c6c6; */
 }
 
 .cardHeaderTxt {
@@ -42,22 +42,30 @@
   color: #b73c3b;
   font-size: 16px;
 }
+.cardBtnBottom {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 .cardButton {
   text-align: center;
-  border-radius: 30px;
+  border-radius: 40px;
   border: none;
   background-color: #ff8382;
   color: #ffffff;
   width: 180px;
-  height: 55px;
+  height: 50px;
   font-weight: bold;
-}
-.buttonText {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  padding-left: 25px;
   font-size: 20px;
-  margin-right: 5px;
-  text-align: center;
-  margin-bottom: -10px !important;
 }
+
 .emailIcon {
   height: 20px;
   width: 20px;
