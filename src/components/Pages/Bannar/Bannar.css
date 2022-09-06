@@ -1,0 +1,16 @@
+.banner {
+  width: 100vw;
+  height: 50vh;
+  box-sizing: border-box;
+}
+.bannerImg {
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.bannerImg img {
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}

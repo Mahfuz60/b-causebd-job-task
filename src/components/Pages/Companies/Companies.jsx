@@ -35,8 +35,8 @@ const Companies = () => {
     <div className='companies'>
       <div className='container'>
         <div className='companiesTitle'>
-          <img src={handShadow} alt='' />
-          <h1 className='text-center'>他社との違い</h1>
+          <img src={handShadow} alt='' style={{ width: '220px', height: '25px' }} />
+          <h2 className='text-center'>他社との違い</h2>
         </div>
         <div className='row d-flex'>
           {companiesData.map((company, id) => (

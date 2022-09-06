@@ -7,7 +7,7 @@ const FrequentlyDetails = ({ frequently }) => {
   const { question, ans } = frequently;
   return (
     <>
-      <div className='col-md-10 col-10  mx-auto'>
+      <div className='col-md-10 col-12  mx-auto'>
         <div className='frequentlyHead mt-3'>
           <div className='frequentlycard  '>
             <h5>

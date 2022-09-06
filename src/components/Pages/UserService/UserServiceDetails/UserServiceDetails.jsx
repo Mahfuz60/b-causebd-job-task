@@ -6,13 +6,12 @@ import contact from '../../../../images/service/contact.png';
 const UserServiceDetails = ({ service }) => {
   const { title1, title2, description } = service;
   return (
-    <div className='col-md-4 col-10 mx-auto d-flex  mt-3'>
+    <div className='col-md-4 col-10  d-flex  mt-3'>
       <div
-        className='card mt-5'
+        className='card mt-5 ms-5'
         style={{
-          width: '300px',
-          height: '430px',
-          // backgroundColor: 'white',
+          width: 'auto',
+          height: 'auto',
           textAlign: 'center',
           alignItems: 'center',
           justifyContent: 'center',
@@ -20,8 +19,8 @@ const UserServiceDetails = ({ service }) => {
           backgroundColor: 'white',
         }}
       >
-        <img src={Rectange} alt='' className='rectangeImg' />
-        <div className='card-img-top" '>
+        <img src={Rectange} alt='' className='rectangeImg imgage-fluid' />
+        <div className='card-img-top '>
           <div className='cardTop'>
             <img src={contact} alt='' className='contactImg  mt-3' />
             <div className='cardTopText mt-4'>

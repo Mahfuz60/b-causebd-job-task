@@ -15,12 +15,11 @@ const ServiceBenefit = () => {
     <div className='serviceBenefit'>
       <div className='container'>
         <div className='benefitTitle'>
-          <img src={headerShadow} alt='' />
+          <img src={headerShadow} alt='' style={{ width: '450px', height: '25px' }} />
           <h1 className='text-center'>サービス利用のメリット</h1>
         </div>
-        <div className='row mt-5'>
-          <div className='col-md-10 col-10 mx-auto'>
-            <div className='benefitCard'>
+        <div className='row g-0   '>
+            <div className='col-md-2 col-12 p-5'>
               <div class='card card1'>
                 <img src={signal} className='img1' alt='...' />
                 <img src={cap} className='img2 ' alt='...' />
@@ -31,7 +30,10 @@ const ServiceBenefit = () => {
                   </p>
                 </div>
               </div>
-              <div class='card card2'>
+            </div>
+
+            <div className='col-md-2 col-12 p-5'>
+              <div class='card card2 '>
                 <img src={circleY} className='img3' alt='...' />
                 <img src={lines} className='img4 ' alt='...' />
 
@@ -41,6 +43,8 @@ const ServiceBenefit = () => {
                   </p>
                 </div>
               </div>
+            </div>
+            <div className='col-md-2 col-12 p-5'>
               <div class='card card3'>
                 <img src={manVoice} className='img5' alt='...' />
 
@@ -50,6 +54,8 @@ const ServiceBenefit = () => {
                   </p>
                 </div>
               </div>
+            </div>
+            <div className='col-md-2 col-12 p-5'>
               <div class='card card4'>
                 <img src={mobile} className='img6' alt='...' />
 
@@ -59,6 +65,8 @@ const ServiceBenefit = () => {
                   </p>
                 </div>
               </div>
+            </div>
+            <div className='col-md-2 col-12 p-5'>
               <div class='card card5'>
                 <img src={studio} className='img7' alt='...' />
 
@@ -72,7 +80,7 @@ const ServiceBenefit = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 

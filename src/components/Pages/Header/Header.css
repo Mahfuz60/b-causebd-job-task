@@ -1,10 +1,13 @@
 .headerBg {
   background-image: url('../../../images/header.png');
-  height:350px;
   width: 100vw;
+  height:100%;
+  max-height: auto;
   background-size: cover;
   background-repeat: no-repeat;
+  object-fit: cover;
   box-sizing: border-box;
+  padding-bottom: 30px;
 
   
   
@@ -13,19 +16,18 @@
   width: 350px;
   height: 200px;
   margin-top:25px;
-  margin-left: 100px;
+  margin-left:70px;
   
 }
 
-.headerList {
+.headerList1 {
   list-style: none;
-  margin-left: 160px;
   display: flex;
   flex-direction: row;
 }
 
-.headerList li {
-  margin-right: 80px;
+.headerList1 li {
+  margin-right:10px;
   padding: 10px;
   font-size: 20px;
   font-weight: 400;
@@ -38,18 +40,17 @@
   display: flex;
   flex-direction: row;
   background-color: white;
-  width: 230px;
+  width: 200px;
   border-radius: 10px;
-  padding: 5px;
+  padding:10px;
+  text-align: center;
  align-items: center;
  justify-content: center;
- justify-items: center;
- margin-left: 200px;
  margin-top: -20px;
 }
 .headerAlarm img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 35px;
   margin-right: 10px;
 }
 .headerAlarm h6{

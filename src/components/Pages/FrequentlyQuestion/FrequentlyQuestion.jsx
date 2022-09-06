@@ -39,7 +39,7 @@ const FrequentlyQuestion = () => {
     <div className='frequentlyQues mt-5'>
       <div className='container'>
         <div className='frequentlyTitle'>
-          <img src={handShadow} alt='' style={{ width: '250px', height: '30px' }} />
+          <img src={handShadow} alt='' style={{ width: '240px', height: '30px' }} />
           <h2 className='text-center'>よくある質問</h2>
         </div>
         <div className='row d-flex'>

@@ -1,0 +1,48 @@
+.multilization {
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin-top: 50px;
+}
+.multilizationTitle {
+  position: relative;
+  text-align: center;
+}
+.multilizationTitle img {
+  position: absolute;
+  left: calc(50% - 110px);
+  top: 20px;
+  z-index: -1;
+}
+
+.multilizationTitle h2 {
+  color: #fdfcfc;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+.multilizationBottom {
+  height: auto;
+  width: 100%;
+  border: 2px solid #707070;
+  text-align: left;
+  box-shadow: 5px 5px #ff7593;
+}
+
+.multilizationTable {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.table .item1 > td {
+  color: #ff7593;
+  font-size: 20px;
+}
+.table > tr > td {
+  color: #707070;
+}
+/* @media only screen and (min-width: 600px) {
+  .multilizationBottom {
+    width: 100%;
+  }
+} */

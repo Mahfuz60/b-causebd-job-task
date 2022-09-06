@@ -11,24 +11,24 @@ const HeaderNav = () => {
   return (
     <div className='headerNavBar'>
       <nav className='headerNav'>
-        <ul className='headerList'>
-          <li className='list me-5'>
-            <img src={home} alt='' className='img2' />
+        <ul className='headerListNav d-flex'>
+          <li className='list mx-3'>
+            <img src={home} alt='' />
             <h6>Home</h6>
           </li>
-          <li className='list me-5'>
-            <img src={hand} alt='' className='img2' />
+          <li className='list me-4 '>
+            <img src={hand} alt='' />
             <h6>サービス紹介 </h6>
           </li>
-          <li className='list me-5'>
+          <li className='list  me-4'>
             <img src={film} alt='' />
             <h6> 動画多言語化 </h6>
           </li>
-          <li className='list me-5'>
+          <li className='list me-4'>
             <img src={line} alt='' />
             <h6>実績確認</h6>
           </li>
-          <li className='list me-5'>
+          <li className='list me-4'>
             <img src={yIcon} alt='' />
             <h6> 料金表 </h6>
           </li>
@@ -38,7 +38,7 @@ const HeaderNav = () => {
           <li className='list me-5'>
             <h6 className='mt-5'>無料見積・問合せ</h6>
           </li>
-          <li className='list me-5'>
+          <li className='list me-4 '>
             <img src={youtube} alt='' />
             <h6>
               YouTuber

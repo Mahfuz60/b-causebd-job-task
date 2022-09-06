@@ -1,16 +1,22 @@
 .frequentlyQues {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   box-sizing: border-box;
 }
 .frequentlyTitle {
+  position: relative;
   text-align: center;
 }
 .frequentlyTitle h2 {
-  margin-top: -50px;
   color: #fdfcfc;
   text-shadow: 2px 2px black;
   font-weight: bold;
+}
+.frequentlyTitle img {
+  position: absolute;
+  left: calc(50% - 120px);
+  top: 20px;
+  z-index: -1;
 }
 .frequentlyBtnBottom {
   display: flex;
@@ -34,7 +40,6 @@
   padding: 8px;
   padding-left: 25px;
   margin-top: -10px;
-  
 }
 
 .slidereButtons span {

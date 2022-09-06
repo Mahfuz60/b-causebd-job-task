@@ -1,14 +1,112 @@
-.feeExample {
-  width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
-}
-.header {
+.threeCardHeader {
+  position: relative;
   text-align: center;
 }
-.header h3 {
-  margin-top: -50px;
-  color: #fdfcfc;
-  text-shadow: 2px 2px black;
+.threeCardHeader img {
+  position: absolute;
+  left: calc(50% - 50px);
+  top: 20px;
+  z-index: -1;
+}
+
+.cardItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardItem1 {
+  border: 8px solid #81cef3;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+.cardItem2 {
+  border: 8px solid #82c05f;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+.cardItem3 {
+  border: 8px solid #fa8585;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+.cardTextTop {
+  margin-top: -80px;
+}
+.cardTextTop h4 {
+  color: #ffffff;
+  font-weight: bold;
+}
+.cardTextTop .head {
+  color: #ffffff;
+  font-weight: 600;
+}
+.cardMid {
+  text-align: center;
+  margin-top: 70px;
+  border-top: 1px solid #81cef3;
+  border-bottom: 1px solid #81cef3;
+  padding:23px;
+  color: #807f7f;
+}
+.cardText1 {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+ color: #4e4e4e;;
+}
+.cardMid2 {
+  text-align: center;
+  margin-top: 70px;
+  border-top: 1px solid #82c05f;
+  border-bottom: 1px solid #82c05f;
+  padding: 23px;
+  color: #807f7f;
+}
+.cardMid3 {
+  text-align: center;
+  margin-top: 70px;
+  border-top: 1px solid #fa8585;
+  border-bottom: 1px solid #fa8585;
+  padding: 7px;
+  color: #807f7f;
+}
+.cardBtn1 button {
+  text-align: center;
+  border: none;
+  background-color: #81cef3;
+  color: #ffffff;
+  width: 80%;
+  height: 40%;
+  padding: 10px;
+  font-size: 22px;
+  margin-top: 112px;
+  font-weight: bold;
+}
+.cardBtn2 button {
+  text-align: center;
+  border: none;
+  background-color: #82c05f;
+  color: #ffffff;
+  width: 80%;
+  height: 40%;
+  padding: 10px;
+  font-size: 22px;
+  margin-top:90px;
+  font-weight: bold;
+}
+.cardBtn3 button {
+  text-align: center;
+  border: none;
+  background-color: #fa8585;
+  color: #ffffff;
+  width: 80%;
+  height: 40%;
+  padding: 10px;
+  font-size: 22px;
+  margin-top:33px;
   font-weight: bold;
 }

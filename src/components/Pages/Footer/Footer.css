@@ -1,0 +1,13 @@
+.footer {
+  width: 100vw;
+  height:40px;
+  box-sizing: border-box;
+  background-color: #ff8382;
+}
+.footer p {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:#FFFFFF;
+  font-size: 15px;
+}

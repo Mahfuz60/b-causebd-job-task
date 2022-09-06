@@ -15,7 +15,7 @@ import { faEnvelope,faSquareCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Sliders = () => {
   return (
-    <div className='sliders'>
+    <div className='sliders mt-5'>
       <div className='sliderTitle'>
         <img src={handShadow} alt='' style={{ width: '150px', height: '20px' }} />
         <h3 className='text-center'>運営実績</h3>
@@ -62,13 +62,7 @@ const Sliders = () => {
             <SwiperSlide>
               <img src={pic4} alt='' />
             </SwiperSlide>
-            <SwiperSlide>
-              <img src={pic3} alt='' />
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <img src={pic4} alt='' />
-            </SwiperSlide>
+            
           </Swiper>
         </div>
       </div>
@@ -78,13 +72,14 @@ const Sliders = () => {
             <span className='text-center'>実績リスト</span>
             <FontAwesomeIcon className='checkIcons' icon={faSquareCheck} />
           </button>
-          <button className='sliderButtons ms-2'>
+          <button className='sliderButtons ms-4'>
             <span>お問合せ</span>
             <FontAwesomeIcon className='checkIcons' icon={faEnvelope} />
           </button>
         </div>
       </div>
-    </div>
+      </div>
+   
   );
 };
 

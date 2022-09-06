@@ -44,7 +44,7 @@ const ServiceFlow = () => {
     <div className='serviceFlow'>
       <div className='container'>
         <div className='flowTitle'>
-          <img src={handShadow} alt='' style={{ width: '250px', height: '30px' }} />
+          <img src={handShadow} alt='' style={{ width: '240px', height: '30px' }} />
           <h2 className='text-center'>サービスの流れ</h2>
         </div>
         <div className='row d-flex'>

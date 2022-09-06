@@ -9,26 +9,27 @@ const Header = () => {
   return (
     <div className='headerBg'>
       <div className='container'>
-        <div className='row'>
+        <div className='row g-0'>
           <div className='col-md-6'>
-            <img className='imgText' src={headerTxt} alt='' />
-            <ul className='headerList'>
-              <li><p>YouTube</p></li>
+            <img className='imgText image-fluid ' src={headerTxt} alt='' />
+            <ul className='headerList1 mx-auto'>
+              <li className='ms-5'>
+                <p>YouTube</p>
+              </li>
               <li>
                 <FontAwesomeIcon icon={faCircle} className='icon' />
-               <p className='headerTxt'> Facebook</p>
+                <p className='headerTxt'> Facebook</p>
               </li>
               <li>
                 <FontAwesomeIcon icon={faCircle} className='icon ' />
-               <p className='headerTxt'> TikTok</p>
+                <p className='headerTxt'> TikTok</p>
               </li>
             </ul>
-            <div className='headerAlarm'>
-              <img src={alarm} alt='' />
+            <div className='headerAlarm mx-auto'>
+              <img src={alarm} alt='' className='image-fluid' />
               <h6>無料見積・問合せ</h6>
             </div>
           </div>
-          <div className='col-md-6 col-10 '></div>
         </div>
       </div>
     </div>
