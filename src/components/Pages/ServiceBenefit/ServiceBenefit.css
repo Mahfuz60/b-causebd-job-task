@@ -1,8 +1,8 @@
 .serviceBenefit {
-  width: 100vw;
-  height: auto;
+  width:100vw;
   box-sizing: border-box;
-  margin-top: 80px;
+  margin-top: 100px;
+
 }
 .benefitTitle {
   position: relative;
@@ -10,11 +10,11 @@
 }
 .benefitTitle img {
   position: absolute;
-  left: calc(50% - 225px);
+  left: calc(50% - 200px);
   top: 20px;
   z-index: -1;
 }
-.benefitTitle h1 {
+.benefitTitle h2 {
   color: #fdfcfc;
   text-shadow: 2px 2px black;
   font-weight: bold;

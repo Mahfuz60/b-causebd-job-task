@@ -9,17 +9,18 @@ const HeaderMain = () => {
   return (
     <div className='headerMain'>
       <div className='container'>
-        <div className='row'>
-          <div className='col-md-4 col-10 mx-auto'>
+        <div className='row g-0'>
+          <div className='col-md-4 col-12 mx-auto'>
             <div
               className='card mt-5'
               style={{
                 width: '380px',
                 height: '340px',
                 boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+                backgroundColor: 'white',
               }}
             >
-              <div className='cardHeaderTxt'>
+              <div className='cardHeaderTxts'>
                 <div className='cardHeaderTxtLeft'>
                   <img src={headerMainIcon} alt='' className='img1' />
                   <h6>Specialist</h6>
@@ -29,13 +30,15 @@ const HeaderMain = () => {
                 </h3>
               </div>
               <div className='card-body '>
-                <p className='card-text cardTxt'>
-                  チャンネル立ち上げ、企画、動画編集、 各種デザインやマーケティングなど
+                <h6 className='card-text cardTxt' style={{ fontSize: '16px' }}>
+                  チャンネル立ち上げ、企画、動画編集、
+                  <br /> 各種デザインやマーケティングなど <br />
                   幅広い領域でお客様をサポートしております。
-                </p>
+                </h6>
                 <div className='cardBottom'>
                   <p>
-                    現代はもはやテキストの時代ではない。 <br /> 動画の時代です!!
+                    現代はもはやテキストの時代ではない。
+                    <br /> 動画の時代です!!
                   </p>
                   <div className='text-center'>
                     <div className='cardBtnBottom'>
@@ -49,9 +52,9 @@ const HeaderMain = () => {
               </div>
             </div>
           </div>
-          <div className='col-md-6 col-10 mx-auto'>
+          <div className='col-md-6 col-12 mx-auto'>
             <div className='headerMainRight mt-4'>
-              <img src={headermain} alt='' />
+              <img src={headermain} alt='' className='img-fluid' />
             </div>
           </div>
         </div>

@@ -1,19 +1,24 @@
 .service5 {
   width: 100vw;
-  height: 45vh;
+  height: 100%;
   box-sizing: border-box;
 }
+.serviceItem5 {
+  float: right;
+}
+
 .services5 {
-  margin-top: 20px;
-  height: 250px;
+  margin-top: 60px;
+  height: auto;
   width: 80%;
+  display: flex;
   float: right;
   background-color: #ffe4e9;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
 }
 
-.serviceLeft5 {
+.serviceLeft5 img {
   width: 50px;
   height: 50px;
   border-bottom: 5px solid #ff8382;
@@ -30,7 +35,7 @@
 .serviceRight5 {
   text-align: left;
 }
-.serviceRight5 .img1 {
+.serviceRight5 img {
   width: 220px;
   height: 250px;
   position: relative;
@@ -38,4 +43,51 @@
 }
 .textLeft5 p {
   font-size: 13px;
+  color: #797979;
+}
+
+.service-button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.service-Btn5 {
+  text-align: center;
+  border-radius: 40px;
+  border: none;
+  color: #ff8382;
+  background-color: #ffffff;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  padding-left: 25px;
+}
+.service-Btn5 span {
+  font-size: 20px;
+}
+.emailIcons5 {
+  height: 20px;
+  width: 22px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #ff8382;
+  color: white;
+  margin-left: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .services5 {
+    width: 100%;
+    height: auto;
+  }
+  .serviceRight5 img {
+    width:150px;
+    height: 180px;
+  
+  }
 }

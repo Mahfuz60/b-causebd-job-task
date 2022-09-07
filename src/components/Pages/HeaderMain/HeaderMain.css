@@ -1,12 +1,13 @@
 .headerMain {
   width: 100vw;
-  height: 60vh;
+  height: 100%;
   box-sizing: border-box;
-  
 }
 
-.cardHeaderTxt {
+.cardHeaderTxts {
   background-color: #f8c6c6;
+  height: auto;
+  width: 100%;
 }
 
 .cardHeaderTxtLeft .img1 {
@@ -23,7 +24,7 @@
   color: #d65b5b;
 }
 
-.cardHeaderTxt h3 {
+.cardHeaderTxts h3 {
   color: #ffffff;
   text-align: center;
   font-weight: 600;
@@ -31,15 +32,16 @@
 }
 .cardTxt {
   text-align: left;
-  color: #696868;
-  font-weight: 400;
-  padding: 5px;
+  color: #707070;
+  font-weight: 500;
+  padding: 10px;
+  
 }
 
 .cardBottom p {
   text-align: center;
-  color: #b73c3b;
-  font-size: 16px;
+  color: #bb5555;
+  font-size: 14px;
 }
 .cardBtnBottom {
   display: flex;
@@ -80,5 +82,6 @@
   align-items: flex-start;
 }
 .headerMainRight img {
-  width: 600px;
+  width:auto;
+ height: 375px;
 }

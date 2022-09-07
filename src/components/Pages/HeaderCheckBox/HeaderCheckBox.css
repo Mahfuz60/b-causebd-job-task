@@ -1,6 +1,6 @@
 .headerCheckBox {
   width: 100vw;
-  height: 60vh;
+  height: 100%;
   box-sizing: border-box;
 }
 .headerCheckBox hr {
@@ -29,7 +29,7 @@
 }
 
 .headerBottom h4 {
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: -0.01rem;
   color: #5e5e5e;
   margin-left: 200px;

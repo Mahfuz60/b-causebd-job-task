@@ -29,7 +29,7 @@ const userServiceData = [
 
 const UserService = () => {
   return (
-    <div className='userService'>
+    <div className='userService mt-5'>
       <div className='container'>
         <div className='userServiceTitle'>
           <img src={handShadow} alt='' style={{ width: '330px', height: '25px' }} />

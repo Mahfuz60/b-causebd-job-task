@@ -1,19 +1,23 @@
 .service3 {
   width: 100vw;
-  height: 50vh;
+  height: 100%;
   box-sizing: border-box;
 }
+.serviceItem3 {
+  float: right;
+}
 .services3 {
-  margin-top: 20px;
-  height: 250px;
+  margin-top: 60px;
+  height: auto;
   width: 80%;
   float: right;
+  display: flex;
   background-color: #ffe4e9;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
 }
 
-.serviceLeft1 {
+.serviceLeft3 img {
   width: 50px;
   height: 50px;
   border-bottom: 5px solid #ff8382;
@@ -27,13 +31,28 @@
   margin-top: 10px;
   margin-left: 150px;
 }
+.textLeft p {
+  color: #797979;
+}
 .serviceRight3 {
   text-align: left;
 }
-.serviceRight3 .img1 {
+.serviceRight3 img {
   width: 200px;
   height: 300px;
   margin-top: -50px;
   position: relative;
   margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .services3 {
+    width: 100%;
+    height: auto;
+  }
+  .serviceRight3 img {
+    width:150px;
+    height: 150px;
+    margin-left: 50px;
+  }
 }

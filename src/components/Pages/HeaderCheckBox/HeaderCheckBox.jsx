@@ -12,9 +12,9 @@ const HeaderCheckBox = () => {
           このようなこと<span>で悩まされたり</span> しませんか？
         </h4>
       </div>
-      <div className='row'>
+      <div className='row g-0'>
         <div className='col-md-8 col-8 mx-auto'>
-          <div className='headerText text-left mt-3'>
+          <div className='headerText text-left mt-3 '>
             <h5>
               <FontAwesomeIcon icon={faSquareCheck} className='checkBoxIcon' />
               <span className='text-bold'> YouTubeを始めたいけど、</span>{' '}

@@ -1,12 +1,17 @@
 .service2 {
   width: 100vw;
-  height: 50vh;
+  height: 100%;
   box-sizing: border-box;
-  margin-top: 80px;
 }
-.services2 {
-  height: 250px;
+.serviceItem2 {
+  float: left;
+}
+.serviceContent2 {
+  margin-top: 60px;
+  height: auto;
   width: 80%;
+  padding: 20px;
+  display: flex;
   float: left;
   background-color: #ffe4e9;
   border-top-right-radius: 200px;
@@ -16,9 +21,9 @@
   text-align: right;
 }
 .serviceLeft2 .img1 {
-  width: 240px;
-  height: 200px;
-  margin-top: -30px;
+  width: 250px;
+  height: 180px;
+  margin-top: -50px;
   position: relative;
 }
 .serviceLeft2 .img2 {
@@ -26,23 +31,34 @@
   height: 100px;
   position: absolute;
   margin-left: -300px;
-  margin-top: 70px;
+  margin-top: 33px;
 }
 
-.serviceRight2{
+.serviceRight2 img {
   width: 50px;
   height: 50px;
   border-bottom: 5px solid #ff8382;
   padding-bottom: 5px;
-  float:right;
-  margin-right:80px;
-  margin-top: -20px;
-  
+  float: right;
+  margin-right: 80px;
+  margin-top: -40px;
 }
 
-.textRight{
+.textRight {
   text-align: right;
   margin-top: 40px;
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: 15px;
+}
+
+.textRight p {
+  color: #797979;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+  .serviceContent2 {
+    width: 100%;
+    height: auto;
+  }
 }
